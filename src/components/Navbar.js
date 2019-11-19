@@ -11,7 +11,7 @@ export default class Navbar extends React.Component {
     return (
       <div className="Mynavbar">
         <div className="llogo">
-          <Link to="/home">
+          <Link to="/">
             <img src={logo} className="logo" />
           </Link>
         </div>
