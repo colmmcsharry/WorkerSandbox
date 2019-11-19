@@ -1,4 +1,5 @@
 {
+  "homepage": "https://mcshazz.github.io/WorkerSandbox",
   "name": "workingplaygroundd",
   "version": "0.1.0",
   "private": true,
@@ -17,8 +18,10 @@
     "shuffle-array": "^1.0.1"
   },
   "scripts": {
-    "start": "PORT=3009 react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -39,6 +42,7 @@
   },
   "devDependencies": {
     "fslightbox-react": "^1.4.2",
+    "gh-pages": "^2.1.1",
     "react-alice-carousel": "^1.15.3"
   },
   "keywords": [],
