@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/WorkerSandbox/home/static/css/main.5fd4ec31.chunk.css",
-    "main.js": "/WorkerSandbox/home/static/js/main.195e3774.chunk.js",
-    "main.js.map": "/WorkerSandbox/home/static/js/main.195e3774.chunk.js.map",
-    "runtime~main.js": "/WorkerSandbox/home/static/js/runtime~main.47d46a4b.js",
-    "runtime~main.js.map": "/WorkerSandbox/home/static/js/runtime~main.47d46a4b.js.map",
-    "static/css/2.607d26f6.chunk.css": "/WorkerSandbox/home/static/css/2.607d26f6.chunk.css",
-    "static/js/2.6f58f903.chunk.js": "/WorkerSandbox/home/static/js/2.6f58f903.chunk.js",
-    "static/js/2.6f58f903.chunk.js.map": "/WorkerSandbox/home/static/js/2.6f58f903.chunk.js.map",
-    "index.html": "/WorkerSandbox/home/index.html",
-    "precache-manifest.f24c12f5666367cc3971c5a57a8c1a02.js": "/WorkerSandbox/home/precache-manifest.f24c12f5666367cc3971c5a57a8c1a02.js",
-    "service-worker.js": "/WorkerSandbox/home/service-worker.js",
-    "static/css/2.607d26f6.chunk.css.map": "/WorkerSandbox/home/static/css/2.607d26f6.chunk.css.map",
-    "static/css/main.5fd4ec31.chunk.css.map": "/WorkerSandbox/home/static/css/main.5fd4ec31.chunk.css.map",
-    "static/media/networking.png": "/WorkerSandbox/home/static/media/networking.30fc6ca6.png"
+    "main.css": "/WorkerSandbox2/static/css/main.5fd4ec31.chunk.css",
+    "main.js": "/WorkerSandbox2/static/js/main.2d6f7e0e.chunk.js",
+    "main.js.map": "/WorkerSandbox2/static/js/main.2d6f7e0e.chunk.js.map",
+    "runtime~main.js": "/WorkerSandbox2/static/js/runtime~main.748aca57.js",
+    "runtime~main.js.map": "/WorkerSandbox2/static/js/runtime~main.748aca57.js.map",
+    "static/css/2.607d26f6.chunk.css": "/WorkerSandbox2/static/css/2.607d26f6.chunk.css",
+    "static/js/2.6f58f903.chunk.js": "/WorkerSandbox2/static/js/2.6f58f903.chunk.js",
+    "static/js/2.6f58f903.chunk.js.map": "/WorkerSandbox2/static/js/2.6f58f903.chunk.js.map",
+    "index.html": "/WorkerSandbox2/index.html",
+    "precache-manifest.3e2431379b3e4504b6342bbfee9ed7aa.js": "/WorkerSandbox2/precache-manifest.3e2431379b3e4504b6342bbfee9ed7aa.js",
+    "service-worker.js": "/WorkerSandbox2/service-worker.js",
+    "static/css/2.607d26f6.chunk.css.map": "/WorkerSandbox2/static/css/2.607d26f6.chunk.css.map",
+    "static/css/main.5fd4ec31.chunk.css.map": "/WorkerSandbox2/static/css/main.5fd4ec31.chunk.css.map",
+    "static/media/networking.png": "/WorkerSandbox2/static/media/networking.30fc6ca6.png"
   }
 }
