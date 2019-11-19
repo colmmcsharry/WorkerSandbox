@@ -20,8 +20,8 @@ function App() {
         <Navbar />
         <div className="Gallerywrapper">
           <Switch>
-            <Route path="/about" component={About} />{" "}
-            <Route path="/contact" component={Contact} />{" "}
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
             <Route exact path="/" component={CGallery} />
             <Route path="/builders" component={Builders} />
           </Switch>
