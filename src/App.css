@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Public+Sans&display=swap");
+/** {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+border: green;
+}*/
+
+.App {
+  text-align: center;
+  margin: 0px;
+}
+
+div {
+  font-family: "Public Sans", sans-serif;
+  text-align: center;
+}
+
+.light {
+  font-weight: 50;
+  color:
+  opacity: .3
+}
+body {
+  font-family: "Anton", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Public Sans", sans-serif;
+}
+
+a {
+  color: black;
+  border: purple;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #222f3e;
+}
+
+.carimages {
+  padding: 20px;
+  border-radius: 20%;
+  height: 300px;
+  width: 400px;
+}
+
+.Gallerywrapper {
+  padding-top: 20px;
+  background-color: white;
+}
+
+/*biowrap begins*/
+
+.biowrap {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  border: 5px solid yellow;
+  justify-content: center;
+  align-items: center;
+  grid-column-gap: 10px;
+  font-family: "Public Sans", sans-serif;
+}
+
+.bio {
+  font-family: "Public Sans", sans-serif;
+  grid-column: 2;
+  padding: 20px 190px;
+}
+
+/*NavBar and Dropdown CSS begins*/
+
+/*Mynavbar is a long container div with 3 columns, first for logo and dropdown, second blank, third for authlinks*/
+.Mynavbar {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 1fr 8fr 1fr 1fr;
+  justify-content: center;
+  padding: 30px;
+  grid-column-gap: 20px;
+}
+
+/*the container div for the actual logo symbol*/
+.llogo {
+  position: relative;
+  grid-column: 1;
+  bottom: 20px;
+}
+
+.ddropbar {
+  width: 100px;
+  grid-column: 3;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.hamburger {
+  grid-column: 4;
+}
+
+.Marklight {
+  display: grid;
+  border: 5px solid pink;
+  justify-content: center;
+  align-items: center;
+}
+
+.Lightboxdiv {
+  border: 1px solid red;
+}
+
+.actualLightbox {
+  border: 1px solid green;
+}
+.biowrapper {
+  display: grid;
+  justify-items: center;
+}
+
+.biodiv {
+  padding: 15px;
+  width: 40%;
+}
+
+.Lwrapperdiv {
+  padding: 15px;
+  display: grid;
+  justify-items: center;
+}
+
+.colmdiv {
+  height: 70%;
+  width: 70%;
+}
+
+/*navbar ends*/
+
+@media only screen and (max-width: 800px) {
+  .hamburger {
+    grid-column: 3;
+  }
+
+  .llogo {
+    grid-column: 2;
+    justify-content: center;
+  }
+
+  .ddropbar {
+    grid-column: 1;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carimages {
+    padding: 20px;
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+  }
+
+  .bio {
+    grid-column: 2;
+    padding: 20px 0px;
+  }
+}
